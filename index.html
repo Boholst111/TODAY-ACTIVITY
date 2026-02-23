@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Paul Boholst - Web Developer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">My Portfolio</h1>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="menu-toggle" id="menuToggle">&#9776;</button>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="container">
+            <div class="hero">
+                <div class="hero-content">
+                    <h1>Hi, I'm John Paul</h1>
+                    <h2>Web Developer</h2>
+                    <p>I build web applications and management systems using HTML, CSS, and JavaScript.</p>
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                </div>
+                <div class="hero-image">
+                    <img src="C:\BOHOLST\FEB 23\profile.jpg" alt="John Paul">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="C:\BOHOLST\FEB 23\profile.jpg" alt="About">
+                <div class="about-text">
+                    <p>I'm a web developer focused on creating user-friendly management systems. I have experience with HTML, CSS, JavaScript, and MySQL databases.</p>
+                    <p>My projects include:</p>
+                    <ul>
+                        <li>Student Faculty Record Management System</li>
+                        <li>Church Member Database System</li>
+                        <li>Inventory Tracking Tool</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <h3>Frontend</h3>
+                    <p>HTML5, CSS3, JavaScript</p>
+                </div>
+                <div class="skill-item">
+                    <h3>Backend</h3>
+                    <p>PHP, MySQL, Database Design</p>
+                </div>
+                <div class="skill-item">
+                    <h3>Tools</h3>
+                    <p>Git, GitHub, VS Code</p>
+                </div>
+                <div class="skill-item">
+                    <h3>Other</h3>
+                    <p>Responsive Design, Web Development</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/400x200/3498db/ffffff?text=SFMS" alt="SFMS System">
+                    <h3>SFMS System</h3>
+                    <p>Student Faculty Record Management System for managing student and faculty information.</p>
+                    <p class="tech">HTML | CSS | JavaScript | MySQL</p>
+                </div>
+
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/400x200/2ecc71/ffffff?text=Church" alt="Church">
+                    <h3>Church Management</h3>
+                    <p>Database system for tracking church members, events, and attendance records.</p>
+                    <p class="tech">HTML | CSS | JavaScript | Database</p>
+                </div>
+
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/400x200/e74c3c/ffffff?text=Inventory" alt="Inventory">
+                    <h3>Inventory Tool</h3>
+                    <p>Store inventory tracking system for managing stock and product information.</p>
+                    <p class="tech">HTML | CSS | JavaScript | MySQL</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out with any questions or project inquiries.</p>
+            
+            <form id="contactForm" class="contact-form">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <input type="text" id="subject" placeholder="Subject" required>
+                <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 John Paul Boholst. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
